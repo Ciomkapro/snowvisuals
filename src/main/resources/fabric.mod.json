@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "snowvisuals",
+  "version": "${version}",
+  "name": "snowvisuals",
+  "description": "Modern Minecraft visual customization client.",
+  "environment": "client",
+  "icon": "assets/snowvisuals/icon.png",
+  "entrypoints": {
+    "client": [
+      "pl.snowvisuals.SnowVisualsClient"
+    ]
+  },
+  "mixins": [
+    "snowvisuals.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

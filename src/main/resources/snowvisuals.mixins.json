@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "pl.snowvisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "EntityRendererMixin",
+    "GameRendererMixin",
+    "FireOverlayMixin",
+    "ViewModelMixin",
+    "MouseMixin",
+    "EntityLookMixin",
+    "CameraMixin",
+    "ItemPhysicsMixin",
+    "CapeMixin",
+    "SnowCombatMixin",
+    "SnowMovementMixin",
+    "SnowLightmapMixin",
+    "SnowFontAtlasMixin",
+    "SnowGuiGlyphMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
