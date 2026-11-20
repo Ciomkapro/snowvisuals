@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "snowvisuals:dejavu_sans.ttf",
+      "size": 18.0,
+      "oversample": 4.0,
+      "shift": [0.0, 0.0]
+    }
+  ]
+}
